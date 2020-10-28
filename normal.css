@@ -1,0 +1,5 @@
+@media (min-width: 769px) and (max-width: 1440px) {
+#about {
+    margin-top: -5rem;
+}
+}

@@ -1,0 +1,189 @@
+@media (max-width:425px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        width: 30vw;
+        height: 100vh;
+    }
+
+    /* Navbar */
+    #navbar {
+        width: 100vw;
+        margin-right: 10rem;
+        background-color: #333333;
+        font-size: 1rem;
+      }
+      
+      /* Header */
+#header {
+    width: 100vw;
+    height: 90vh;
+    background: url('banner.jpg') no-repeat center center/cover;
+    background-size: 100% 100%, cover;
+    margin-right: 2rem;
+}
+
+#header .header-content {
+    color: #63c508;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+#header .header-content h1 {
+    font-size: 25px;
+    line-height: 1.1em;
+    padding: 1rem 5rem;
+    text-align: center;  
+}
+
+#header .header-content p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+     /* About */
+     #about {
+        width: 100vw;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        padding-bottom: 0.5rem;
+        margin-top: -0.9rem;
+    }
+
+        #about .boxes {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+    
+        #about .boxes i {
+            background-color: #59b2e0;
+            padding: 3.5rem;
+            border-radius: 50%;
+            margin-bottom: 2rem;
+        }
+    
+        #about .boxes h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+        }
+    
+ 
+        /* Teacher */
+        #teacher {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            padding-bottom: 80rem;
+        }                        
+                #teacher .teacher-img {
+                display: none;
+                }
+            
+            #teacher .teacher-content {
+                padding: 10rem;
+                display: flex;
+                flex-direction: column;
+                height: 70vh;
+                padding-top: 14rem;
+                justify-content: start;
+                align-items: flex-start;
+                text-align: start;
+            }
+            
+            #teacher .teacher-content h1 {
+                margin-top: 5rem;
+                margin-bottom: 2rem;
+                font-size: 3rem;
+            }
+
+            #teacher .teacher-content h3 {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 1.8rem;
+            }
+            
+            #teacher .teacher-content p {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                font-size: 1.4rem;
+            }
+
+            #teacher .teacher-content ul li {
+                margin-bottom: 2rem;
+                border-bottom: #eee 1px dotted;
+                width: 24rem;
+                padding: 1rem;
+                font-size: 1.2rem;
+                margin-left: 0rem;
+            }
+            #teacher .teacher-content ul li:last-child {
+            border: none;
+            }
+                
+/* Contact */
+#contact {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+#contact .contact-form {
+height: 100vh;
+width: 100vw;
+margin-bottom: 2rem;
+padding-top: 3rem;
+padding-bottom: 4rem;
+}
+
+#contact .contact-form label,
+#contact .contact-form input,
+#contact .contact-form textarea {
+display: block;
+}
+
+#contact.map {
+    height: 70vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+width: 100%;
+padding: 0.5rem;
+border-radius: 0.5rem;
+margin-bottom: 1rem;
+border: none;
+}
+
+#contact .contact-form label {
+    margin-bottom: 0.2rem;
+}
+
+#contact .map iframe {
+height: 70vh;
+width: 100vw;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    margin-top: 38rem;
+    font-size: 1.4rem;
+    position: sticky;
+}
+}
